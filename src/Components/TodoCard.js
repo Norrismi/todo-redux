@@ -28,12 +28,12 @@ const TodoCard = ({ todo }) => {
         >
             <div className="todoCard__check">
                 <FormControlLabel
+                    label={'card'}
                     control={
                         <CheckBox
                             onClick={() => dispatch(completeTodo(todo.id))}
                             name='checked'
                             color='primary'
-
                         />
                     }
                 />

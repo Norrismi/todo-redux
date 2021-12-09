@@ -53,7 +53,7 @@ const Form = () => {
                                 onChange={handleInput}
                                 value={newTodo.title}
                                 required
-                                maxlength="30"
+                                maxLength="30"
                             ></input>
                         </div>
                         {newTodo.title ? (
